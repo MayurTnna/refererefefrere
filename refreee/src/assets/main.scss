@@ -1,0 +1,86 @@
+body{
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.box{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.card-button{
+   float: right;
+}
+
+.card-body{
+   max-width: 23rem;
+    margin:0.5rem;
+    padding:0.4rem;
+}
+.loading{
+   
+   text-align: center;
+}
+
+.text-aline{
+   display: flex;
+   justify-content: space-between !important;
+}
+
+.cart-row{
+   justify-content:center !important;
+   --bs-gutter-x: 0rem !important;
+
+   @media (max-width:"768px") {
+    gap: 1rem !important;
+   } 
+}
+.fillstar{
+   display: inline-block;
+   color: #ffee2a;
+   font-size: 20px;
+}
+
+// Login form
+
+.form{
+   max-width: 500px;
+}
+
+.errors{
+   color: red;
+}
+
+
+// pagination
+.pagination-line{
+   display: flex !important;
+   justify-content: flex-start !important;
+   flex-wrap: wrap;
+   justify-content: center !important;
+}
+
+
+//view-Product
+.clider-img{
+   
+@media (max-width:"480px") {
+   width: 449px;
+} 
+@media (max-width:"425px") {
+   width: 392px;
+} 
+@media (max-width:"375px") {
+   width: 340px;
+}
+@media (max-width:"320px") {
+   width: 284px;
+}
+@media (max-width:"280px") {
+   width: 247px;
+}
+   
+}
